@@ -98,6 +98,6 @@ If casting fails, `cast.log` and `ffmpeg.log` in the extension's support folder 
 ## Development
 
 ```sh
-pnpm install --ignore-scripts
-pnpm dev
+npm install
+npm run dev
 ```

@@ -10,6 +10,7 @@
     "Windows"
   ],
   "categories": [
+    "Media",
     "Productivity"
   ],
   "license": "MIT",
@@ -19,19 +20,33 @@
       "title": "Cast Screen",
       "subtitle": "RameCast",
       "description": "Find Chromecast, Google TV, DLNA smart TVs, Roku, AirPlay and Miracast displays on your network and cast your screen to one",
-      "mode": "view"
+      "mode": "view",
+      "keywords": [
+        "chromecast",
+        "google cast",
+        "airplay",
+        "dlna",
+        "roku",
+        "miracast",
+        "screen mirroring",
+        "tv"
+      ]
     },
     {
       "name": "stop-casting",
       "title": "Stop Casting",
       "subtitle": "RameCast",
       "description": "Stop the current screen cast and close the player on the device",
-      "mode": "no-view"
+      "mode": "no-view",
+      "keywords": [
+        "chromecast",
+        "cast",
+        "mirroring"
+      ]
     }
   ],
   "dependencies": {
     "@raycast/api": "^2.11.1",
-    "@raycast/utils": "^2.3.3",
     "bonjour-service": "^1.4.4"
   },
   "devDependencies": {
