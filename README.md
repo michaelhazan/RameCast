@@ -28,7 +28,7 @@ TV that supports both Google Cast and AirPlay appears in both sections.
 
 ## Requirements
 
-There is nothing to install. RameCast runs on macOS (Apple silicon and Intel) and Windows.
+There is nothing to install. RameCast runs on macOS (Apple silicon and Intel). Windows code paths exist but are untested, so the Store listing is macOS-only for now.
 
 - On macOS, grant Raycast **Screen Recording** permission (System Settings → Privacy & Security).
 - Your computer and the Cast device must be on the same network.
