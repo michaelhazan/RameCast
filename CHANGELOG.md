@@ -1,4 +1,4 @@
-# RameCast Changelog
+# Screen Casting Changelog
 
 ## [Initial Version] - {PR_MERGE_DATE}
 

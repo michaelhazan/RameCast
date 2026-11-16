@@ -116,7 +116,7 @@ export default function Command() {
           actions={<ActionPanel>{refresh}</ActionPanel>}
         />
       )}
-      <List.Section title="Cast Devices" subtitle="Streamed by RameCast">
+      <List.Section title="Cast Devices" subtitle="Streamed by this extension">
         {found.devices.map((d) => (
           <List.Item
             key={`${d.protocol}:${d.id}`}
